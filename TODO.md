@@ -1,0 +1,8 @@
+- [x] Edit resources/css/app.css for global cute styles
+- [x] Edit resources/views/welcome.blade.php: add emojis, styles
+- [x] Edit resources/views/beasiswa/index.blade.php: add emojis, styles
+- [x] Edit resources/views/beasiswa/create.blade.php: add emojis, styles
+- [x] Edit resources/views/beasiswa/edit.blade.php: add emojis, styles
+- [x] Edit resources/views/jenis/index.blade.php: add emojis, styles
+- [x] Edit resources/views/jenis/create.blade.php: add emojis, styles
+- [x] Edit resources/views/jenis/edit.blade.php: add emojis, styles

@@ -1,0 +1,106 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Cute and Aesthetic Styles */
+body {
+    background: linear-gradient(135deg, #fce4ec, #e1f5fe, #f3e5f5, #fff3e0);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #ff6b9d, #c44569);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #4ecdc4, #44a08d);
+    border: none;
+}
+
+.btn-warning {
+    background: linear-gradient(45deg, #ffd93d, #ff8c42);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+    border: none;
+}
+
+.btn-secondary {
+    background: linear-gradient(45deg, #a8e6cf, #6b9b7b);
+    border: none;
+}
+
+.btn-outline-secondary {
+    border-color: #a8e6cf;
+    color: #6b9b7b;
+}
+
+.btn-outline-secondary:hover {
+    background: linear-gradient(45deg, #a8e6cf, #6b9b7b);
+    border-color: #6b9b7b;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.table thead {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+}
+
+h1, h2 {
+    color: #e91e63;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #ff6b9d;
+    box-shadow: 0 0 10px rgba(255, 107, 157, 0.3);
+}
+
+.alert {
+    border-radius: 10px;
+    border: none;
+}
